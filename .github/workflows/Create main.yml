@@ -10,11 +10,9 @@ jobs:
 
      steps:
     - uses: actions/checkout@main
-
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
       with:
         app-name: 'cmst386-jcrigger'
         slot-name: 'production'
-        
         publish-profile: ${{ secrets.AppServiceCMST385 }}
