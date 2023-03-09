@@ -28,4 +28,4 @@ jobs:
 
         slot-name: 'production'
 
-        publish-profile: ${{ secrets.APPSERVICECMST386 }}
+        publish-profile: ${{ secrets.AppServiceCMST385 }}
