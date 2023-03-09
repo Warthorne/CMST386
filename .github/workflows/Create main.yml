@@ -16,4 +16,5 @@ jobs:
       with:
         app-name: 'cmst386-jcrigger'
         slot-name: 'production'
+        
         publish-profile: ${{ secrets.AppServiceCMST385 }}
